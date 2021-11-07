@@ -1,0 +1,27 @@
+package selfProgramming;
+
+import java.util.*;
+public class Biodata {
+	
+    static Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		String firstName;
+		String lastName;
+		int age;
+		double weight;
+		
+		System.out.println("Enter first name, last name," + "age, and weight separated" + "by space");
+		
+		firstName = sc.next();
+		lastName = sc.next();
+		age = sc.nextInt();
+		weight = sc.nextDouble();
+		
+		System.out.println("Name : " + firstName + " " + lastName);
+		System.out.println("Age : " + age);
+		System.out.println("Weight : " + weight);
+
+	}
+
+}
