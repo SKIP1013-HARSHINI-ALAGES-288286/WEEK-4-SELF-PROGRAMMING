@@ -1,0 +1,36 @@
+package selfProgramming;
+
+import java.util.*;
+public class Grade{
+	
+    static Scanner sc = new Scanner(System.in);
+    
+    static final int NUM =10;
+    static final double X = 20.5;
+    
+	public static void main(String[] args) {
+		
+		int a,b;
+		double z;
+		char grade;
+		a = 25;
+		
+		System.out.println("a = " + a);
+		System.out.println("Enter the first integers: ");
+		a = sc.nextInt();
+		System.out.println();
+		
+		System.out.println("Enter second integer: ");
+		b = sc.nextInt();
+		System.out.println();
+		System.out.println("The numbers you entered are " + a + " and " + b);
+		z = X + 2 * a - b;
+		System.out.println("z = " + z);
+		grade = 'A';
+		System.out.println("Your grade is " + grade);
+		a = 2 * NUM + (int) z;
+		System.out.println("The value of a = " + a);
+
+	}
+
+}
