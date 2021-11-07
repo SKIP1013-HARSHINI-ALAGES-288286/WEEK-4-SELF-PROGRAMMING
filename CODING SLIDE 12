@@ -1,0 +1,19 @@
+package selfProgramming;
+
+class Slide12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double a = 5;
+		double b = 7;
+		double c = 2;
+		double root;
+		
+		root = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+		
+		System.out.println(root);
+		
+	}
+
+}
